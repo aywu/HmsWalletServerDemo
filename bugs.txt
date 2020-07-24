@@ -1,2 +1,3 @@
-1. Bug: "Illegal key size" in the console when running  HwLoyaltyInstanceTest.generateThinJWEToBindUser().
-    Fix: changed the number "16" to "8" in lines 258 and 291 (sessionKey size from 256 bit to 128 bit).
+1. Bug: "Illegal key size" in the console when running src/test/java/com/huawei/wallet/hms/hmssdk/loyalty/HwLoyaltyInstanceTest.generateThinJWEToBindUser().
+    Fix: changed the number "16" to "8" in lines 258 and 291 (sessionKey size from 256 bit to 128 bit) in the 
+           source src/test/java/com/huawei/wallet/hms/hmssdk/loyalty/HwLoyaltyInstanceTest.java.
